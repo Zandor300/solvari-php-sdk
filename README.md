@@ -18,4 +18,19 @@ composer require zandor300/solvari-php-sdk
 
 ## Usage
 
-TODO
+```php
+use Solvari\Solvari;
+use Solvari\SolvariLeadStatus;
+use Solvari\Exception\SolvariException;
+
+$solvari = new Solvari("API_KEY_HERE");
+
+$solvariLeadId = 12345678;
+$targetSolvariStatus = SolvariLeadStatus::QUOTE_SEND;
+
+try {
+    $solvari->setLeadStatus($solvariLeadId, $targetSolvariStatus);
+} catch(SolvariException $e) {
+    echo $e->getMessage();
+}
+```
