@@ -1,0 +1,24 @@
+{
+    "name": "zandor300/solvari-php-sdk",
+    "version": "1.0.0",
+    "description": "Solvari PHP SDK - Update lead status in Solvari Pro",
+    "type": "library",
+    "keywords": [
+        "Solvari",
+        "Lead",
+        "Status",
+        "SDK"
+    ],
+    "homepage": "https://git.zsinfo.nl/Zandor300/solvari-php-sdk",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=7.3.0",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Solvari\\": "src/"
+        }
+    }
+}

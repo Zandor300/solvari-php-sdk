@@ -1,0 +1,52 @@
+image: composer:latest
+
+stages:
+  - lint
+  - publish
+
+cache:
+  paths:
+    - vendor/
+
+before_script:
+  - composer install
+
+composer-validate:
+  stage: lint
+  script:
+    - composer validate
+  tags:
+    - docker
+
+php-lint:
+  stage: lint
+  script:
+    - cd src
+    - if find . -name "*.php" ! -path "./vendor/*" -exec php -l {} \; | grep -v "No syntax errors detected"; then exit 1; fi
+  tags:
+    - docker
+
+#php-lint-examples:
+#  stage: lint
+#  script:
+#    - cd example
+#    - if find . -name "*.php" ! -path "./vendor/*" -exec php -l {} \; | grep -v "No syntax errors detected"; then exit 1; fi
+#  tags:
+#    - docker
+#  allow_failure: true
+
+publish:
+  image: node:20
+  stage: publish
+  before_script:
+    - yarn install
+  script:
+    - yarn semantic-release
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - .npm/
+  tags:
+    - docker
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_COMMIT_MESSAGE !~ /chore(release)$/
