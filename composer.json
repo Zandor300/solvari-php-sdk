@@ -1,6 +1,6 @@
 {
     "name": "zandor300/solvari-php-sdk",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Solvari PHP SDK - Update lead status in Solvari Pro",
     "type": "library",
     "keywords": [
