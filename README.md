@@ -1,8 +1,8 @@
 # Solvari PHP SDK
 
-[![Build](https://img.shields.io/gitlab/pipeline/Zandor300/solvari-php-sdk.svg?gitlab_url=https%3A%2F%2Fgit.zsinfo.nl)](https://git.zsinfo.nl/Zandor300/solvari-php-sdk/pipelines)
+[![Build](https://img.shields.io/gitlab/pipeline-status/Zandor300/solvari-php-sdk.svg?branch=main&gitlab_url=https%3A%2F%2Fgit.zsinfo.nl)](https://git.zsinfo.nl/Zandor300/solvari-php-sdk/pipelines)
 [![Version](https://img.shields.io/packagist/v/zandor300/solvari-php-sdk.svg)](https://packagist.org/packages/zandor300/apnsframework)
-[![License](https://img.shields.io/packagist/l/zandor300/solvari-php-sdk.svg)](https://git.zsinfo.nl/Zandor300/solvari-php-sdk/blob/master/LICENSE)
+[![License](https://img.shields.io/packagist/l/zandor300/solvari-php-sdk.svg)](https://git.zsinfo.nl/Zandor300/solvari-php-sdk/blob/main/LICENSE)
 [![PHP Version](https://img.shields.io/packagist/php-v/zandor300/solvari-php-sdk.svg)](https://packagist.org/packages/zandor300/solvari-php-sdk)
 [![Downloads](https://img.shields.io/packagist/dt/zandor300/solvari-php-sdk.svg)](https://packagist.org/packages/zandor300/solvari-php-sdk)
 
