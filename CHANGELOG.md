@@ -1,3 +1,10 @@
+## [1.0.3](https://git.zsinfo.nl/Zandor300/solvari-php-sdk/compare/v1.0.2...v1.0.3) (2024-05-19)
+
+
+### Bug Fixes
+
+* **deps:** update semantic-release monorepo ([0779bc9](https://git.zsinfo.nl/Zandor300/solvari-php-sdk/commit/0779bc96c4d3f31d9792de26ab84553594c3e1bd))
+
 ## [1.0.2](https://git.zsinfo.nl/Zandor300/solvari-php-sdk/compare/v1.0.1...v1.0.2) (2024-05-15)
 
 
