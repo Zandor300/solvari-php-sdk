@@ -1,7 +1,7 @@
 {
   "name": "@zandor300/solvari-php-sdk",
   "private": true,
-  "dependencies": {
+  "devDependencies": {
     "@iwavesmedia/semantic-release-composer": "1.0.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
