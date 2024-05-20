@@ -50,3 +50,4 @@ publish:
     - docker
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_COMMIT_MESSAGE !~ /chore(release)$/
+  retry: 2
