@@ -459,10 +459,10 @@
     p-filter "^4.0.0"
     url-join "^5.0.0"
 
-"@semantic-release/gitlab@13.1.0":
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-13.1.0.tgz#b70889f5fccaf3e2bb4bf338915948e1829257ab"
-  integrity sha512-LKHvyINcPl9goLjJJU8vYUGXlVE0djFqYSVQWxlBMEtJzZ8dZ2irkiAS5POZeqdxIk3/JZaQj9bS8rjF/ZVR6A==
+"@semantic-release/gitlab@13.2.1":
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-13.2.1.tgz#f7d3367bf7992a88bb75f1b18e2fe5f9e7a27108"
+  integrity sha512-uvajKL3RbvouunvF6rWCEWmvYFW5tCq8irXvb2tW40cdI5rK22q9Uma1m/PxPtUTjggqfap86G0gst1hgeFuow==
   dependencies:
     "@semantic-release/error" "^4.0.0"
     aggregate-error "^5.0.0"
