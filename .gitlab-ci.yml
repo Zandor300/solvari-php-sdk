@@ -36,7 +36,7 @@ php-lint:
 #  allow_failure: true
 
 publish:
-  image: node:20
+  image: node:22
   stage: publish
   before_script:
     - yarn install
