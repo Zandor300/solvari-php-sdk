@@ -504,10 +504,10 @@
     undici "^7.0.0"
     url-join "^5.0.0"
 
-"@semantic-release/gitlab@13.2.5":
-  version "13.2.5"
-  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-13.2.5.tgz#26e6af3e95f3dcd8b4d7c08ab5101d286f6fba89"
-  integrity sha512-HWpbFE5WfvnOvpj0cwicc/zd+i4s8FCqpbixU4sUPpMzsf47/bAIAgTm6DVYfbogGQHFluU2A6qRpLk7d0w7fw==
+"@semantic-release/gitlab@13.3.0":
+  version "13.3.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-13.3.0.tgz#f8d4b16148b25eb8c23569c1681d709ba6856458"
+  integrity sha512-E0q4qbTdVQZW8Siqz1YQjfSSXE2U/Z7lJasUlpHGRu+OYXsLCIU6o18scquofyP7CBxyKLIx7TDiLVRko1ekGw==
   dependencies:
     "@semantic-release/error" "^4.0.0"
     aggregate-error "^5.0.0"
@@ -520,7 +520,7 @@
     got "^14.0.0"
     hpagent "^1.0.0"
     lodash-es "^4.17.21"
-    parse-url "^9.0.0"
+    parse-url "^10.0.0"
     url-join "^4.0.0"
 
 "@semantic-release/npm@^13.1.1":
@@ -655,11 +655,6 @@
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.4.tgz#56e2cc26c397c038fab0e3a917a12d5c5909e901"
   integrity sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==
-
-"@types/parse-path@^7.0.0":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@types/parse-path/-/parse-path-7.0.3.tgz#cec2da2834ab58eb2eb579122d9a1fc13bd7ef36"
-  integrity sha512-LriObC2+KYZD3FzCrgWGv/qufdUy4eXrxcLgQMfYXgPbLIecKIsVBaQgUPmxSSLcjmYbDTQbMgr6qr6l/eb7Bg==
 
 "@types/semver@^7.5.5":
   version "7.5.8"
@@ -2633,20 +2628,19 @@ parse-ms@^4.0.0:
   resolved "https://registry.yarnpkg.com/parse-ms/-/parse-ms-4.0.0.tgz#c0c058edd47c2a590151a718990533fd62803df4"
   integrity sha512-TXfryirbmq34y8QBwgqCVLi+8oA3oWx2eAnSn62ITyEhEYaWRlVZ2DvMM9eZbMs/RfxPu/PK/aBLyGj4IrqMHw==
 
-parse-path@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/parse-path/-/parse-path-7.0.0.tgz#605a2d58d0a749c8594405d8cc3a2bf76d16099b"
-  integrity sha512-Euf9GG8WT9CdqwuWJGdf3RkUcTBArppHABkO7Lm8IzRQp0e2r/kkFnmhu4TSK30Wcu5rVAZLmfPKSBBi9tWFog==
+parse-path@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/parse-path/-/parse-path-7.1.0.tgz#41fb513cb122831807a4c7b29c8727947a09d8c6"
+  integrity sha512-EuCycjZtfPcjWk7KTksnJ5xPMvWGA/6i4zrLYhRG0hGvC3GPU/jGUj3Cy+ZR0v30duV3e23R95T1lE2+lsndSw==
   dependencies:
     protocols "^2.0.0"
 
-parse-url@^9.0.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/parse-url/-/parse-url-9.2.0.tgz#d75da32b3bbade66e4eb0763fb4851d27526b97b"
-  integrity sha512-bCgsFI+GeGWPAvAiUv63ZorMeif3/U0zaXABGJbOWt5OH2KCaPHF6S+0ok4aqM9RuIPGyZdx9tR9l13PsW4AYQ==
+parse-url@^10.0.0:
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/parse-url/-/parse-url-10.0.3.tgz#e9598dc46a2f733500f3186b3945bb73d890c79d"
+  integrity sha512-RvldzLvNE0DtOO1loukZsYcHCzHVUnHe7GNyrKIkavp7fNWs5ueX3kUzY/hXS8uRqDWwtaRKDcAmLEVouPIxIw==
   dependencies:
-    "@types/parse-path" "^7.0.0"
-    parse-path "^7.0.0"
+    parse-path "^7.1.0"
 
 parse5-htmlparser2-tree-adapter@^6.0.0:
   version "6.0.1"
